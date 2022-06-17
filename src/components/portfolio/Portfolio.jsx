@@ -49,7 +49,7 @@ const data = [
     title: 'Crypto Currency Dashboard & Financial Visualization',
     github: 'https://github.com',
     demo: 'https://dribble.com'
-  },
+  }
 ]
 
 const Portfolio = () => {
