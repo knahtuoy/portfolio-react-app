@@ -38,18 +38,18 @@ footer a {
 }
 
 .footer__socials a {
-    background: var(--color-white);
-    color: var(--color-primary-variant);
+    background: transparent;
+    color: var(--color-primary-variant-2);
     padding: 0.8rem;
-    border-radius: 1rem;
+    border-radius: 4rem;
     display: flex;
     border: 1px solid transparent;
 }
 
 .footer__socials a:hover {
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+    background: var(--color-primary-variant-2);
+    color: var(--color-white);
+    border-color: var(--color-primary-variant-2);
 }
 
 .footer__copyright {
