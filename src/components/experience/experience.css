@@ -14,7 +14,7 @@
 
 .experience__container > div:hover {
     background: transparent;
-    border-color: var(--color-primary-varient);
+    border-color: var(--color-primary-variant);
     cursor: default;
 }
 
@@ -38,6 +38,18 @@
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
+}
+
+.experience__header {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    padding-top: 4rem;
+    bottom: 4rem;
+}
+
+.experience__header h2 {
+    color: var(--color-primary-variant-2);
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ============== */

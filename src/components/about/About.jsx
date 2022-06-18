@@ -8,15 +8,12 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <div className="about__header">
+        <h5>Get To Know</h5>
+        <h2>About Me</h2>
+      </div>
 
       <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="About Image" />
-          </div>
-        </div>
 
         <div className="about__content">
           <div className="about__cards">
@@ -38,10 +35,12 @@ const About = () => {
           </div>
 
           <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sit repudiandae animi eum, est doloribus quaerat cumque magni doloremque voluptate porro similique nobis rem aliquam! Quia mollitia numquam voluptate impedit.
+          I've been writing code since I was twelve years old and have been doing it professionally since 2016. My technical expertise lies in developing websites and applications with languages like HTML5, CSS3 and React JS but I'm also passionate about blockchain applications and Web3 technologies.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <div className="about__btn">
+            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          </div>
         </div>
       </div>
     </section>

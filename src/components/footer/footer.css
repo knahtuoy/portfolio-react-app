@@ -11,10 +11,15 @@ footer a {
 }
 
 .footer__logo {
+    color: var(--color-white);
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+}
+
+.footer__logo:hover {
+    color: var(--color-primary-variant-2);
 }
 
 .permalinks {
@@ -33,10 +38,10 @@ footer a {
 }
 
 .footer__socials a {
-    background: var(--color-bg);
-    color: var(--color-white);
+    background: var(--color-white);
+    color: var(--color-primary-variant);
     padding: 0.8rem;
-    border-radius: 0.7rem;
+    border-radius: 1rem;
     display: flex;
     border: 1px solid transparent;
 }

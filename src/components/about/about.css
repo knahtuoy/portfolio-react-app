@@ -1,6 +1,6 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 100%;
     gap: 15%;
 }
 
@@ -67,8 +67,27 @@
 }
 
 .about__content p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+.about__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.about__header {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    padding-top: 4rem;
+    bottom: 4rem;
+}
+
+.about__header h2 {
+    color: var(--color-primary-variant-2);
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ============== */

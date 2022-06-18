@@ -5,8 +5,10 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
   return (
     <section id='services'>
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <div className="services__header">
+        <h5>What I Offer</h5>
+        <h2>Services</h2>
+      </div>
 
       <div className="services__container">
         <article className="service">
@@ -17,23 +19,23 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Web App UX and UI Design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Mobile App UX and UI Design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Cross-platform Experience Design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>UI and UX Consulting</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Web Resign Services</p>
             </li>
           </ul>
         </article>
@@ -46,27 +48,23 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Websites, Web Portals, and Ecommerce</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Business Analysis</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Front-end Design and Development</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Back-end Development</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Continuous Support and Evolution</p>
             </li>
           </ul>
         </article>
@@ -79,23 +77,23 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Copywriting</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Graphic Design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Blog Writing</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Social Media Asset Generation</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elite.</p>
+              <p>Logo Design</p>
             </li>
           </ul>
         </article>

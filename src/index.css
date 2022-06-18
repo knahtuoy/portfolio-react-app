@@ -12,11 +12,11 @@
 
 /* root variables can be used anywhere */
 :root {
-	--color-bg: #1f1f38
-;
-	--color-bg-variant: #2c2c6c;
-	--color-primary: #4db5ff;
-	--color-primary-variant: rgba(77, 181, 255, 0.4);
+	--color-bg: #171619;
+	--color-bg-variant: #3b3a3d5c;
+	--color-primary: #8d81ff;
+	--color-primary-variant: #5b4ed2;
+	--color-primary-variant-2: #43e48b;
 	--color-white: #fff;
 	--color-light: rgba(255, 255, 255 0.6);
 
@@ -113,6 +113,19 @@ img {
 	display: block;
 	width: 100%;
 	object-fit: cover;
+}
+
+.section__header {
+	.contact__header {
+        text-align: center;
+        height: 100%;
+        position: relative;
+        bottom: 2rem;
+    }
+
+    .contact__header h2 {
+        color: var(--color-primary);
+    }
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ */
