@@ -52,13 +52,13 @@ const Experience = () => {
         {/* END OF FRONTEND */}
 
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>Blockchain and Web3</h3>
           <div className="experience__content">
 
             <article className='expierence__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>Node</h4>
+                <h4>Wallets</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -66,15 +66,7 @@ const Experience = () => {
             <article className='expierence__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>MongoDB</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-
-            <article className='expierence__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>PHP</h4>
+                <h4>CeFi and DeFi</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -82,8 +74,16 @@ const Experience = () => {
             <article className='expierence__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>MySQL</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>NFTs and P2E</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='expierence__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Smart Contracts</h4>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
 

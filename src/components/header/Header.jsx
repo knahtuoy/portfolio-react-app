@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me-about.jpg'
 import HeaderSocials from './HeaderSocials'
+import Typed from 'react-typed';
 
 const Header = () => {
   return (
@@ -10,7 +11,15 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Will Tajer</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <div className='flex justify-end items-center'>
+          <Typed
+            className='header__typed'
+            strings={['Fullstack Developer', 'Blockchain Consultant', 'IT Professional']}
+            typeSpeed={90}
+            backSpeed={60}
+            loop
+          />
+        </div>
         <CTA />
         <HeaderSocials />
 

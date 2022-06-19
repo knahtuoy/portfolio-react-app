@@ -19,15 +19,15 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Web App UX and UI Design</p>
+              <p>Web App UX and UI</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Mobile App UX and UI Design</p>
+              <p>Mobile App UX and UI</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Cross-platform Experience Design</p>
+              <p>Cross-platform Experience</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
@@ -35,7 +35,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Web Resign Services</p>
+              <p>Web Redesign Services</p>
             </li>
           </ul>
         </article>
@@ -60,7 +60,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Back-end Development</p>
+              <p>Basic Backend Development</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
@@ -89,7 +89,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Social Media Asset Generation</p>
+              <p>Social Media Assets</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />

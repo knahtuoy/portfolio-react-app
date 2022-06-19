@@ -41,11 +41,11 @@ header {
 
 /* ============== ME ============== */
 .me {
-    width: 16rem;
+    width: 24rem;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     position: absolute;
-    left: calc(50% - 8rem);
+    left: calc(50% - 12rem);
     margin-top: 4rem;
     background: linear-gradient(
         45deg,
@@ -78,6 +78,19 @@ header {
     font-size: 0.9rem;
 }
 
+/* ============== MEDIA QUERIES (DESKTOP DEVICES) ============== */
+@media screen and (max-width: 1520px) {
+    header {
+        padding-top: 7rem;
+        height: 100vh;
+    }
+
+    .me {
+        width: 16rem;
+        left: calc(50% - 8rem);
+    }
+}
+
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ============== */
 @media screen and (max-width: 1024px) {
     header {
@@ -93,11 +106,17 @@ header {
 /* ============== MEDIA QUERIES (SMALL DEVICES) ============== */
 @media screen and (max-width: 600px) {
     header {
+        padding-top: 2rem;
         height: 100vh;
     }
 
     .header__socials, 
     .scroll__down {
         display: none;
+    }
+
+    .me {
+        width: 20rem;
+        left: calc(50% - 10rem);
     }
 }

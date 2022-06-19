@@ -1,6 +1,6 @@
 {
   "name": "react-app-test-1",
-  "homepage": "https://react.willtajer.xyz",
+  "homepage": "https://dev.willtajer.xyz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
+    "react-typed": "^1.2.0",
     "swiper": "^8.2.4",
     "web-vitals": "^2.1.4"
   },

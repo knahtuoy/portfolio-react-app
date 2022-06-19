@@ -35,7 +35,10 @@ const About = () => {
           </div>
 
           <p>
-          I've been writing code since I was twelve years old and have been doing it professionally since 2016. My technical expertise lies in developing websites and applications with languages like HTML5, CSS3 and React JS but I'm also passionate about blockchain applications and Web3 technologies.
+            I've been writing code since I was twelve years old and have been doing it 
+            professionally since 2016. My technical expertise lies in developing websites 
+            and applications with HTML5, CSS3 and, React JS. I'm also passionate Web3 and 
+            blockchain technologies.
           </p>
 
           <div className="about__btn">
