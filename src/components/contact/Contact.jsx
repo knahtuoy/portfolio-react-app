@@ -39,12 +39,12 @@ const Contact = () => {
             <h5>Will Tajer</h5>
             <a href="https://m.me/WillTajer" target="_blank">Send a message</a>
           </article>
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <BsWhatsapp class='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+18054134124</h5>
             <a href="https://https://api.whatsapp.com/send?phone+18054134124" target="_blank">Send a message</a>
-          </article>
+          </article> */}
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>
